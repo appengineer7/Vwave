@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "520838517362",
+    "firebase_url": "https://vwaveapp-default-rtdb.firebaseio.com",
+    "project_id": "vwaveapp",
+    "storage_bucket": "vwaveapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520838517362:android:adfa16bf58dcf3a34ca8eb",
+        "android_client_info": {
+          "package_name": "com.vwave.app.vwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520838517362-e6blugqeqnr35pel6084q4mgua3ovd79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vwave.app.vwave",
+            "certificate_hash": "ea48dea7b4bf17627a84630f519a0cc81a713b02"
+          }
+        },
+        {
+          "client_id": "520838517362-lmtnucnoaoka79teqspjigro7egsuipg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vwave.app.vwave",
+            "certificate_hash": "fed2d4acffdc247c4d645bf17f6d2ff9a4245635"
+          }
+        },
+        {
+          "client_id": "520838517362-5juv8rflrtmfdqauuoa0i0i7vg2fkg7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXLOTVaXJ7pJN_i4ATY0hUvhTwSj_TKkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520838517362-5juv8rflrtmfdqauuoa0i0i7vg2fkg7p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "520838517362-nal97sit6r8vihr17296uvce1scp7sii.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vwave.app.vwave"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

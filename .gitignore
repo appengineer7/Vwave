@@ -1,0 +1,44 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+pubspec.lock
+build/
+
+# Android
+.android/
+gradle/
+local.properties
+
+# iOS
+ios/Flutter/.generated/
+ios/Podfile.lock
+ios/Pods/
+ios/.symlinks/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# macOS
+macos/Flutter/.generated/
+
+# Linux
+linux/Flutter/.generated/
+
+# Windows
+windows/Flutter/.generated/
+
+# Web
+web/.dart_tool/
+
+# Other
+*.log
+*.iml
+*.swp
+*.swo
+.DS_Store

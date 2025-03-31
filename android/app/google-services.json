@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "712794258578",
+    "project_id": "getvwaveapp",
+    "storage_bucket": "getvwaveapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712794258578:android:0d7266ae5d44f54707fa4b",
+        "android_client_info": {
+          "package_name": "com.vwave.app.vwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712794258578-7a1of046msu0bdtbo30bbahc1fldtcri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vwave.app.vwave",
+            "certificate_hash": "5535431e5b7d2326409e2676902fe0900564c0a2"
+          }
+        },
+        {
+          "client_id": "712794258578-759qu6evhvmrdpetv3g583vq7bpa33qa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHgVE0sKI_5Dc_d2S_zL_4HGYibOMz-Tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712794258578-759qu6evhvmrdpetv3g583vq7bpa33qa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712794258578-69ddmdl6d9tef3u4kptg15ivtldsnmt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vwave.app.vwave"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
