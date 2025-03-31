@@ -4,8 +4,8 @@ import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/utils/general.dart';
-import 'package:vwave/utils/storage.dart';
+import 'package:vwave_new/utils/general.dart';
+import 'package:vwave_new/utils/storage.dart';
 
 import '../../../../widgets/nav_back_button.dart';
 import '../../../../widgets/styles/app_colors.dart';

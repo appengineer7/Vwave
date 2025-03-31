@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:vwave/widgets/action_button.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../constants.dart';
+import '../../../widgets/action_button.dart';
+import '../../../widgets/styles/app_colors.dart';
+import '../../../widgets/styles/text_styles.dart';
 // import '../../home/pages/home_page.dart';
 
 class SignupLaterBottomSheet extends StatelessWidget {
@@ -47,7 +48,7 @@ class SignupLaterBottomSheet extends StatelessWidget {
                 const SizedBox(
                   height: 10.0,
                 ),
-                const Text(
+                Text(
                   "Sign up Later?",
                   style: subHeadingStyle,
                   textAlign: TextAlign.center,

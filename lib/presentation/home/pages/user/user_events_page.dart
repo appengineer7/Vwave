@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/presentation/events/models/club_event.dart';
-import 'package:vwave/widgets/nav_back_button.dart';
+import 'package:vwave_new/presentation/events/models/club_event.dart';
+import 'package:vwave_new/widgets/nav_back_button.dart';
 import '../../../../widgets/styles/app_colors.dart';
 import '../../../../widgets/styles/text_styles.dart';
 import '../../../events/widgets/club_event_cardview.dart';

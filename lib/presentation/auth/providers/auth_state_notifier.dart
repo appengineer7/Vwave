@@ -2,9 +2,10 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/presentation/auth/repositories/auth_repository.dart';
-import 'package:vwave/utils/exceptions.dart';
 
+
+import '../../../utils/exceptions.dart';
+import '../repositories/auth_repository.dart';
 import 'auth_state.dart';
 
 class AuthStateNotifier extends StateNotifier<AuthState> {

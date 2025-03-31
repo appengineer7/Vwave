@@ -18,7 +18,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:video_player/video_player.dart';
-import 'package:vwave/utils/general.dart';
+import 'package:vwave_new/utils/general.dart';
 
 import '../../../../widgets/nav_back_button.dart';
 import '../../../../widgets/styles/app_colors.dart';
@@ -454,7 +454,7 @@ class _AddToStoryPageState extends ConsumerState<AddToStoryPage> with WidgetsBin
   Future<void> cropImageFileAndCompress(File file) async {
     final croppedFile = (await ImageCropper().cropImage(
         sourcePath: file.path,
-        aspectRatioPresets: CropAspectRatioPreset.values,
+        aspectRatio: const CropAspectRatio(ratioX: 1, ratioY: 1), // Set your ratio here
         compressFormat: ImageCompressFormat.png,
         compressQuality: 100,
         uiSettings: [

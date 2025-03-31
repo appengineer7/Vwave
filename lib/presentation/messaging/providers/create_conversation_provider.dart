@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/presentation/messaging/models/conversation.dart';
+import 'package:vwave_new/presentation/messaging/models/conversation.dart';
 
 import '../repositories/message_repository.dart';
 

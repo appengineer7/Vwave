@@ -1,4 +1,4 @@
-name: vwave
+name: vwave_new
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
+  sdk: ^3.7.2
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,101 +31,101 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_svg: ^2.0.10+1
-  firebase_core: ^3.3.0
-  pinput: ^3.0.1
-  freezed_annotation: ^2.4.1
-  json_annotation: ^4.8.1
+  flutter_svg: ^2.0.17
+  firebase_core: ^3.12.1
+  pinput: ^5.0.1
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
   google_fonts: ^6.2.1
-  device_preview: ^1.1.0
-  firebase_auth: ^5.1.4
+  device_preview: ^1.2.0
+  firebase_auth: ^5.5.1
   #  firebase_ui_auth: ^1.8.0
   #  firebase_ui_oauth_google: ^1.2.11
   #  firebase_ui_oauth_apple: ^1.2.11
-#  flutter_facebook_auth: ^6.0.2
-  google_sign_in: ^6.2.1
-  sign_in_with_apple: ^5.0.0
-  flutter_riverpod: ^2.4.9
+  #  flutter_facebook_auth: ^6.0.2
+  google_sign_in: ^6.3.0
+  sign_in_with_apple: ^6.1.4
+  flutter_riverpod: ^2.6.1
   firebase_dynamic_links: ^6.0.3
-  firebase_database: ^11.0.4
-  firebase_analytics: ^11.2.1
-  firebase_storage: ^12.1.3
-  firebase_messaging: ^15.0.4
-  firebase_remote_config: ^5.0.4
+  firebase_database: ^11.3.4
+  firebase_analytics: ^11.4.4
+  firebase_storage: ^12.4.4
+  firebase_messaging: ^15.2.4
+  firebase_remote_config: ^5.4.2
   firebase_app_check: ^0.3.0+4
-  firebase_crashlytics: ^4.0.4
-  flutter_image_compress: ^2.3.0
-  image_cropper: ^5.0.1
-  shared_preferences: ^2.2.2
-  fluttertoast: ^8.2.4
-  flutter_timezone: ^1.0.8
-  device_info_plus: ^10.1.0
+  firebase_crashlytics: ^4.3.4
+  flutter_image_compress: ^2.4.0
+  image_cropper: ^9.0.0
+  shared_preferences: ^2.5.2
+  fluttertoast: ^8.2.12
+  flutter_timezone: ^4.1.0
+  device_info_plus: ^11.3.3
   truncate: ^3.0.1
   rxdart: ^0.28.0
-  file_picker: ^8.0.6
+  file_picker: ^9.2.1
   #  extended_image: ^8.1.0
-  permission_handler: ^11.3.1
+  permission_handler: ^11.4.0
   image_picker: ^1.1.2
-  timezone: ^0.9.4
-  cloud_firestore: ^5.2.1
-  firebase_ui_firestore: ^1.6.4
-  cached_network_image: ^3.3.1
+  timezone: ^0.10.0
+  cloud_firestore: ^5.6.5
+  firebase_ui_firestore: ^1.7.1
+  cached_network_image: ^3.4.1
   shimmer: ^3.0.0
   modal_progress_hud_nsn: ^0.5.1
-  readmore: ^2.2.0
-  path_provider: ^2.1.2
-  share_plus: ^9.0.0
+  readmore: ^3.0.0
+  path_provider: ^2.1.5
+  share_plus: ^10.1.4
   #  image_downloader: ^0.31.0
-  google_places_flutter: ^2.0.7
-  url_launcher: ^6.3.0
-  flutter_widget_from_html: ^0.15.1
+  google_places_flutter: ^2.1.0
+  url_launcher: ^6.3.1
+  flutter_widget_from_html: ^0.16.0
   dash_chat_2: ^0.0.21
-  flutter_local_notifications: ^17.2.1+1 #^16.3.0
-  webview_flutter: ^4.4.4
+  flutter_local_notifications:  #^16.3.0
+  webview_flutter: ^4.10.0
   get: ^4.6.6
-  flutter_dotenv: ^5.1.0
-  google_maps_flutter: ^2.5.3
-  google_maps_flutter_android: ^2.6.2
-  geolocator: ^10.1.0
-  location: ^5.0.0
-  geoflutterfire_plus: ^0.0.26 #^0.0.20
+  flutter_dotenv: ^5.2.1
+  google_maps_flutter: ^2.12.0
+  google_maps_flutter_android: ^2.16.0
+  geolocator: ^13.0.3
+  location: ^8.0.0
+  geoflutterfire_plus: ^0.0.32 #^0.0.20
   intl_phone_field2: ^3.3.4
-  agora_rtc_engine: ^6.3.2
-#  flutter_screen_recording: ^2.0.10
-  dio: ^5.4.3+1
+  agora_rtc_engine: ^6.5.1
+  #  flutter_screen_recording: ^2.0.10
+  dio: ^5.8.0+1
   pretty_qr_code: ^3.3.0
-  maps_launcher: ^2.2.1
-#  flutter_instagram_stories: ^1.0.3+3
-#  flutter_story_editor: ^0.0.2
+  maps_launcher: ^3.0.0+1
+  #  flutter_instagram_stories: ^1.0.3+3
+  #  flutter_story_editor: ^0.0.2
   flutter_video_info: ^1.3.2
   video_thumbnail: ^0.5.3
-#  chewie: ^1.8.1
-  video_player: ^2.9.1
+  #  chewie: ^1.8.1
+  video_player: ^2.9.3
   media_info: ^0.12.0+2
-  camera: ^0.11.0+1
-#  video_compress: ^3.1.0
-  circle_progress_bar: ^0.1.2
-#  cached_video_player_plus: ^2.0.0 #remember to upgrade
-  flutter_cache_manager: ^3.3.2
-  flutter_cache_manager_firebase: ^2.0.2
-  get_storage: ^2.0.0
-#  flutter_isolate: ^2.0.4
-#  isolate_handler: ^1.0.2
+  camera: ^0.11.0+2
+  #  video_compress: ^3.1.0
+  circle_progress_bar: ^0.1.3
+  #  cached_video_player_plus: ^2.0.0 #remember to upgrade
+  flutter_cache_manager: ^3.4.1
+  flutter_cache_manager_firebase: ^2.1.1
+  get_storage: ^2.1.1
+  #  flutter_isolate: ^2.0.4
+  #  isolate_handler: ^1.0.2
   share_screenshot_widget: ^0.0.5
-#  flutter_animated_progress: ^1.2.1
-  showcaseview: ^3.0.0
-  keep_screen_on: ^3.0.0
+  #  flutter_animated_progress: ^1.2.1
+  showcaseview: ^4.0.1
+  keep_screen_on: ^4.0.0
   add_2_calendar: ^3.0.1
-#  hive: ^2.2.3
-#  hive_flutter: ^1.1.0
-#  flutter_firebase_chat_core: ^1.6.8
-#  open_filex: ^4.4.0
-#  flutter_chat_ui: ^1.6.14
-#  miroru_story_editor: ^1.1.7
+  #  hive: ^2.2.3
+  #  hive_flutter: ^1.1.0
+  #  flutter_firebase_chat_core: ^1.6.8
+  #  open_filex: ^4.4.0
+  #  flutter_chat_ui: ^1.6.14
+  #  miroru_story_editor: ^1.1.7
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
@@ -136,19 +136,24 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
-  build_runner: ^2.4.8
-  freezed: ^2.4.6
-  json_serializable: ^6.7.1
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  freezed: ^3.0.4
+  json_serializable: ^6.9.4
 #  hive_generator: ^2.0.1
 
 dependency_overrides:
-  firebase_storage: ^12.1.1
+  flutter:
+    sdk: flutter
+  firebase_storage: ^12.4.4
   rxdart: ^0.28.0
-#  file_picker: ^6.1.1
-#  device_info_plus: ^9.1.1
-#  intl: ^0.18.1
-  share_plus: ^9.0.0
+  camera_android_camerax: ^0.6.14+1
+  freezed_annotation: ^3.0.0
+  json_serializable: ^6.9.4
+  #  file_picker: ^6.1.1
+  #  device_info_plus: ^9.1.1
+  #  intl: ^0.18.1
+  share_plus: ^10.1.4
 
 
 # For information on the generic Dart part of this file, see the
@@ -165,11 +170,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/icons/
-#    - assets/icons/notifications/
+    #    - assets/icons/notifications/
     - assets/images/
     - assets/svg/
     - assets/svg/navigation/
-#    - assets/svg/home/
+    #    - assets/svg/home/
     - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -194,6 +199,21 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+  #FAILURE: Build failed with an exception.
   #
+  #* What went wrong:
+  #A problem occurred configuring project ':media_info'.
+  #> Could not create an instance of type com.android.build.api.variant.impl.LibraryVariantBuilderImpl.
+  #   > Namespace not specified. Specify a namespace in the module's build file: C:\Users\tanya\AppData\Local\Pub\Cache\hosted\pub.dev\media_info-0.12.0+2\android\build.gradle. See https://d.android.com/r/tools/upgrade-assistant/set-namespace for information about setting the namespace.
+  #
+  #     If you've specified the package attribute in the source AndroidManifest.xml, you can use the AGP Upgrade Assistant to migrate to the namespace value in the build file. Refer to https://d.android.com/r/tools/upgrade-assistant/agp-upgrade-assistant for general information about using the AGP Upgrade Assistant.
+  #
+  #* Try:
+  #> Run with --stacktrace option to get the stack trace.
+  #> Run with --info or --debug option to get more log output.
+  #> Run with --scan to get full insights.
+  #> Get more help at https://help.gradle.org.
+  #
+  #BUILD FAILED in 54s
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

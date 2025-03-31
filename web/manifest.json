@@ -1,6 +1,6 @@
 {
-    "name": "vwave",
-    "short_name": "vwave",
+    "name": "vwave_new",
+    "short_name": "vwave_new",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:vwave/presentation/livestream/models/livestream.dart';
+import 'package:vwave_new/presentation/livestream/models/livestream.dart';
 
 
 @immutable

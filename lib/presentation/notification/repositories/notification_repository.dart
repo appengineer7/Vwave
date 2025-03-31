@@ -1,8 +1,8 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:vwave/presentation/notification/models/notification.dart';
-import 'package:vwave/utils/general.dart';
+import 'package:vwave_new/presentation/notification/models/notification.dart';
+import 'package:vwave_new/utils/general.dart';
 
 class NotificationRepository {
 

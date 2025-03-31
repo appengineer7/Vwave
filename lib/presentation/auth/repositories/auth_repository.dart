@@ -6,12 +6,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave/presentation/club/providers/club_notifier_provider.dart';
-import 'package:vwave/utils/general.dart';
-import 'package:vwave/utils/storage.dart';
+
 
 import '../../../common/providers/firebase.dart';
 import '../../../utils/exceptions.dart';
+import '../../../utils/general.dart';
+import '../../../utils/storage.dart';
+import '../../club/providers/club_notifier_provider.dart';
 
 abstract class BaseAuthRepository {
   Stream<User?> get authStateChanges;

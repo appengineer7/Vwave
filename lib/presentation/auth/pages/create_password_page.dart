@@ -1,11 +1,12 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:vwave/utils/validators.dart';
-import 'package:vwave/widgets/action_button.dart';
-import 'package:vwave/widgets/input_field.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
 
+
+import '../../../utils/validators.dart';
+import '../../../widgets/action_button.dart';
+import '../../../widgets/input_field.dart';
 import '../../../widgets/styles/app_colors.dart';
+import '../../../widgets/styles/text_styles.dart';
 
 class CreatePasswordPage extends StatefulWidget {
   const CreatePasswordPage({super.key});

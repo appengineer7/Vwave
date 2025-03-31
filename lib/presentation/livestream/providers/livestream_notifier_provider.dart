@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/presentation/livestream/models/livestream.dart';
-import 'package:vwave/utils/exceptions.dart';
-import 'package:vwave/utils/general.dart';
+import 'package:vwave_new/presentation/livestream/models/livestream.dart';
+import 'package:vwave_new/utils/exceptions.dart';
+import 'package:vwave_new/utils/general.dart';
 
 import '../../../common/providers/firebase.dart';
 import '../repositories/livestream_repository.dart';

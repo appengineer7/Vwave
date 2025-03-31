@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/presentation/club/models/review.dart';
+import 'package:vwave_new/presentation/club/models/review.dart';
 
 import '../../../common/providers/firebase.dart';
 import '../../../services/dynamic_link.dart';

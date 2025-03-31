@@ -6,8 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_places_flutter/model/prediction.dart';
-import 'package:vwave/presentation/events/providers/club_event_notifier_provider.dart';
-import 'package:vwave/presentation/livestream/providers/livestream_notifier_provider.dart';
+
 
 import '../../../constants.dart';
 import '../../../library/google_autocomplete_places.dart';
@@ -17,7 +16,9 @@ import '../../../widgets/action_button.dart';
 import '../../../widgets/nav_back_button.dart';
 import '../../../widgets/styles/app_colors.dart';
 import '../../../widgets/styles/text_styles.dart';
+import '../../events/providers/club_event_notifier_provider.dart';
 import '../../events/widgets/club_event_cardview.dart';
+import '../../livestream/providers/livestream_notifier_provider.dart';
 import '../../livestream/widgets/livestream_horizontal_full_display.dart';
 import '../models/club.dart';
 import '../providers/club_notifier_provider.dart';

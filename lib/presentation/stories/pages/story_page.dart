@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave/presentation/stories/models/story.dart';
-import 'package:vwave/presentation/stories/providers/story_notifier_provider.dart';
-import 'package:vwave/widgets/user_avatar.dart';
+import 'package:vwave_new/presentation/stories/models/story.dart';
+import 'package:vwave_new/presentation/stories/providers/story_notifier_provider.dart';
+import 'package:vwave_new/widgets/user_avatar.dart';
 
 import '../../../widgets/styles/app_colors.dart';
 import '../../../widgets/styles/text_styles.dart';

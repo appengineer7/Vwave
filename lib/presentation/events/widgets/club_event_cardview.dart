@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:geoflutterfire_plus/geoflutterfire_plus.dart';
-import 'package:vwave/constants.dart';
-import 'package:vwave/presentation/events/models/club_event.dart';
-import 'package:vwave/presentation/events/providers/club_event_notifier_provider.dart';
-import 'package:vwave/presentation/livestream/models/livestream.dart';
-import 'package:vwave/utils/general.dart';
-import 'package:vwave/widgets/action_button.dart';
+import 'package:vwave_new/constants.dart';
+import 'package:vwave_new/presentation/events/models/club_event.dart';
+import 'package:vwave_new/presentation/events/providers/club_event_notifier_provider.dart';
+import 'package:vwave_new/presentation/livestream/models/livestream.dart';
+import 'package:vwave_new/utils/general.dart';
+import 'package:vwave_new/widgets/action_button.dart';
 
 import '../../../widgets/bottom_sheet_multiple_responses.dart';
 import '../../../widgets/styles/app_colors.dart';

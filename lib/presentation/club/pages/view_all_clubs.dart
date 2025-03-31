@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_places_flutter/model/prediction.dart';
-import 'package:vwave/presentation/club/repositories/club_repository.dart';
+import 'package:vwave_new/presentation/club/repositories/club_repository.dart';
 
 import '../../../constants.dart';
 import '../../../library/google_autocomplete_places.dart';

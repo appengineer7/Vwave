@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_cropper/image_cropper.dart';
-import 'package:vwave/common/providers/firebase.dart';
+import 'package:vwave_new/common/providers/firebase.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../widgets/styles/app_colors.dart';
@@ -18,9 +18,8 @@ class Cropper {
   Future<File> cropImage(File file) async {
     final croppedImage = await cropper.cropImage(
       sourcePath: file.path,
-      aspectRatioPresets: [
-        CropAspectRatioPreset.square,
-      ],
+      aspectRatio: const CropAspectRatio(ratioX: 1, ratioY: 1), // Fixed square aspect ratio
+
       compressFormat: ImageCompressFormat.png,
       uiSettings: [
         AndroidUiSettings(

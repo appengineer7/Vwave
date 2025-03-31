@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/presentation/profile/repositories/profile_repository.dart';
-import 'package:vwave/utils/exceptions.dart';
+import 'package:vwave_new/presentation/profile/repositories/profile_repository.dart';
+import 'package:vwave_new/utils/exceptions.dart';
 
 import '../../../services/image_upload.dart';
 import '../../auth/models/user.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/constants.dart';
-import 'package:vwave/widgets/action_button.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave_new/constants.dart';
+import 'package:vwave_new/widgets/action_button.dart';
+import 'package:vwave_new/widgets/styles/app_colors.dart';
+import 'package:vwave_new/widgets/styles/text_styles.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class IntroPage extends StatefulWidget {

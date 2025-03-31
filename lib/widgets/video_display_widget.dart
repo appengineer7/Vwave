@@ -4,8 +4,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:video_player/video_player.dart';
-import 'package:vwave/presentation/stories/providers/story_notifier_provider.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
+import 'package:vwave_new/presentation/stories/providers/story_notifier_provider.dart';
+import 'package:vwave_new/widgets/styles/app_colors.dart';
 
 class VideoDisplayWidget extends ConsumerStatefulWidget {
   final String videoUrl;

@@ -12,7 +12,6 @@ import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
 import 'package:google_places_flutter/model/prediction.dart';
 import 'package:location/location.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
 
 import 'package:geolocator/geolocator.dart' as geo;
 import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
@@ -24,6 +23,7 @@ import '../../../widgets/action_button.dart';
 import '../../../widgets/map_utils.dart';
 import '../../../widgets/nav_back_button.dart';
 import '../../../widgets/styles/app_colors.dart';
+import '../../../widgets/styles/text_styles.dart';
 import '../providers/auth_state.dart';
 import '../providers/auth_state_notifier.dart';
 

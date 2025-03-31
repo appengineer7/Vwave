@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/widgets/action_button.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave_new/widgets/action_button.dart';
+import 'package:vwave_new/widgets/styles/app_colors.dart';
+import 'package:vwave_new/widgets/styles/text_styles.dart';
 
 class BottomSheetMultipleResponses extends StatelessWidget {
   final String imageName, title, subtitle, buttonTitle, cancelTitle;

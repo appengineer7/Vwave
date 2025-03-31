@@ -3,12 +3,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/presentation/club/models/club.dart';
-import 'package:vwave/presentation/club/providers/club_notifier_provider.dart';
-import 'package:vwave/presentation/livestream/models/livestream.dart';
-import 'package:vwave/utils/general.dart';
-import 'package:vwave/utils/storage.dart';
-import 'package:vwave/widgets/action_button.dart';
+import 'package:vwave_new/presentation/club/models/club.dart';
+import 'package:vwave_new/presentation/club/providers/club_notifier_provider.dart';
+import 'package:vwave_new/presentation/livestream/models/livestream.dart';
+import 'package:vwave_new/utils/general.dart';
+import 'package:vwave_new/utils/storage.dart';
+import 'package:vwave_new/widgets/action_button.dart';
 
 import '../../../widgets/styles/app_colors.dart';
 import '../../../widgets/styles/text_styles.dart';

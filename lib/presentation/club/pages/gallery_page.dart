@@ -1,8 +1,8 @@
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:vwave/widgets/nav_back_button.dart';
 
+import '../../../widgets/nav_back_button.dart';
 import '../../../widgets/styles/app_colors.dart';
 import '../../../widgets/styles/text_styles.dart';
 

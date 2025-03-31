@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/utils/general.dart';
-import 'package:vwave/utils/storage.dart';
-import 'package:vwave/widgets/nav_back_button.dart';
-import 'package:vwave/widgets/user_avatar.dart';
+import 'package:vwave_new/utils/general.dart';
+import 'package:vwave_new/utils/storage.dart';
+import 'package:vwave_new/widgets/nav_back_button.dart';
+import 'package:vwave_new/widgets/user_avatar.dart';
 
 import '../../../../widgets/empty_screen.dart';
 import '../../../../widgets/search_field.dart';

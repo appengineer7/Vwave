@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/presentation/club/widgets/popup.dart';
+import 'package:vwave_new/presentation/club/widgets/popup.dart';
 
 import '../../../widgets/styles/app_colors.dart';
 import '../../../widgets/styles/text_styles.dart';

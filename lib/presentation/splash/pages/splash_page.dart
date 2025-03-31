@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/constants.dart';
-import 'package:vwave/presentation/auth/providers/auth_state.dart';
-import 'package:vwave/presentation/auth/providers/auth_state_notifier.dart';
+import 'package:vwave_new/constants.dart';
+import 'package:vwave_new/presentation/auth/providers/auth_state.dart';
+import 'package:vwave_new/presentation/auth/providers/auth_state_notifier.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../size_config.dart';

@@ -6,11 +6,11 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave/common/providers/firebase.dart';
-import 'package:vwave/presentation/stories/models/story.dart';
-import 'package:vwave/presentation/stories/repositories/video_cache_manager.dart';
-import 'package:vwave/utils/general.dart';
-import 'package:vwave/utils/storage.dart';
+import 'package:vwave_new/common/providers/firebase.dart';
+import 'package:vwave_new/presentation/stories/models/story.dart';
+import 'package:vwave_new/presentation/stories/repositories/video_cache_manager.dart';
+import 'package:vwave_new/utils/general.dart';
+import 'package:vwave_new/utils/storage.dart';
 
 import '../../../utils/exceptions.dart';
 

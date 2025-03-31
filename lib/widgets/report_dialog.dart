@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave_new/widgets/styles/text_styles.dart';
 
 import '../../../size_config.dart';
 import '../../../utils/general.dart';

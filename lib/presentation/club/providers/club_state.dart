@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:vwave/presentation/club/models/club.dart';
+import 'package:vwave_new/presentation/club/models/club.dart';
 
 
 @immutable

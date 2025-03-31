@@ -6,18 +6,17 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave/presentation/auth/providers/auth_state_notifier.dart';
-import 'package:vwave/utils/validators.dart';
-import 'package:vwave/widgets/action_button.dart';
-import 'package:vwave/widgets/input_field.dart';
-import 'package:vwave/widgets/nav_back_button.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
 
+
+import '../../../utils/validators.dart';
+import '../../../widgets/action_button.dart';
 import '../../../widgets/custom_input_field.dart';
 import '../../../widgets/line_divider.dart';
 import '../../../widgets/social_button.dart';
 import '../../../widgets/styles/app_colors.dart';
+import '../../../widgets/styles/text_styles.dart';
 import '../providers/auth_state.dart';
+import '../providers/auth_state_notifier.dart';
 
 class LoginPage extends ConsumerStatefulWidget {
   const LoginPage({super.key});

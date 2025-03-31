@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:vwave/widgets/custom_input_field.dart';
+import 'package:vwave_new/widgets/custom_input_field.dart';
 
 import '../../../../utils/general.dart';
 import '../../../../utils/storage.dart';

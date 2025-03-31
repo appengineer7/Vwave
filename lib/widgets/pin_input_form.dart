@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:vwave/utils/validators.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave_new/utils/validators.dart';
+import 'package:vwave_new/widgets/styles/app_colors.dart';
+import 'package:vwave_new/widgets/styles/text_styles.dart';
 import '../../size_config.dart';
 
 class PinInputForm extends StatefulWidget {

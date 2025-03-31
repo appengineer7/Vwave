@@ -12,8 +12,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave_new/widgets/styles/app_colors.dart';
+import 'package:vwave_new/widgets/styles/text_styles.dart';
 
 import '../presentation/auth/services/social_auth_service.dart';
 import '../presentation/club/providers/club_notifier_provider.dart';

@@ -4,8 +4,8 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/presentation/profile/repositories/profile_repository.dart';
-import 'package:vwave/widgets/action_button.dart';
+import 'package:vwave_new/presentation/profile/repositories/profile_repository.dart';
+import 'package:vwave_new/widgets/action_button.dart';
 
 import '../../../../utils/general.dart';
 import '../../../../utils/storage.dart';

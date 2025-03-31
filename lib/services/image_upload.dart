@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave/common/providers/firebase.dart';
+import 'package:vwave_new/common/providers/firebase.dart';
 
 class ImageUpload {
   final Ref ref;

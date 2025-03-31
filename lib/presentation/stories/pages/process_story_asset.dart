@@ -9,9 +9,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_video_info/flutter_video_info.dart';
 import 'package:video_player/video_player.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
-import 'package:vwave/utils/general.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave_new/utils/general.dart';
+import 'package:vwave_new/widgets/styles/app_colors.dart';
+import 'package:vwave_new/widgets/styles/text_styles.dart';
 
 import '../../../../services/image_upload.dart';
 import '../../../../utils/storage.dart';

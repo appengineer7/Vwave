@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:vwave/utils/general.dart';
+import 'package:vwave_new/utils/general.dart';
 
 import '../../../../services/image_cropper.dart';
 import '../../../../services/image_picker.dart';

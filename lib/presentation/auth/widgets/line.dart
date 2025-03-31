@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
+
+import '../../../widgets/styles/app_colors.dart';
+import '../../../widgets/styles/text_styles.dart';
+
 
 class Line extends StatelessWidget {
   const Line({

@@ -11,14 +11,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
-import 'package:vwave/widgets/action_button.dart';
-import 'package:vwave/widgets/styles/app_colors.dart';
-import 'package:vwave/widgets/styles/text_styles.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../../../utils/exceptions.dart';
 import '../../../utils/storage.dart';
+import '../../../widgets/action_button.dart';
 import '../../../widgets/nav_back_button.dart';
+import '../../../widgets/styles/app_colors.dart';
+import '../../../widgets/styles/text_styles.dart';
 import '../services/social_auth_service.dart';
 import '../widgets/sign_up_later.dart';
 
