@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:vwave_new/widgets/action_button.dart';
+import 'package:vwave/widgets/action_button.dart';
 
 import '../../../widgets/empty_screen.dart';
 import '../../../widgets/styles/app_colors.dart';

@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:vwave_new/presentation/auth/models/user.dart';
-import 'package:vwave_new/utils/general.dart';
-import 'package:vwave_new/widgets/styles/app_colors.dart';
+import 'package:vwave/presentation/auth/models/user.dart';
+import 'package:vwave/utils/general.dart';
+import 'package:vwave/widgets/styles/app_colors.dart';
 
 import '../../../utils/storage.dart';
 

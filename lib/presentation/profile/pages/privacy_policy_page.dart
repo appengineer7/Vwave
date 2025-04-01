@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
-import 'package:vwave_new/utils/general.dart';
+import 'package:vwave/utils/general.dart';
 
 import '../../../constants.dart';
 import '../../../widgets/styles/text_styles.dart';

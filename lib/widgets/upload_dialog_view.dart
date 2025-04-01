@@ -16,9 +16,9 @@ import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
-import 'package:vwave_new/utils/general.dart';
-import 'package:vwave_new/widgets/styles/app_colors.dart';
-import 'package:vwave_new/widgets/styles/text_styles.dart';
+import 'package:vwave/utils/general.dart';
+import 'package:vwave/widgets/styles/app_colors.dart';
+import 'package:vwave/widgets/styles/text_styles.dart';
 
 import 'multiple_options_bottom_sheet.dart';
 

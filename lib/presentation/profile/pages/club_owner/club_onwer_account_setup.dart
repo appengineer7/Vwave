@@ -9,7 +9,7 @@ import 'package:google_places_flutter/model/prediction.dart';
 import 'package:intl_phone_field2/country_picker_dialog.dart';
 import 'package:intl_phone_field2/intl_phone_field.dart';
 import 'package:intl_phone_field2/phone_number.dart';
-import 'package:vwave_new/widgets/action_button.dart';
+import 'package:vwave/widgets/action_button.dart';
 
 import '../../../../common/providers/firebase.dart';
 import '../../../../constants.dart';

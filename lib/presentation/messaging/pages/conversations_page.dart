@@ -6,10 +6,10 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:vwave_new/utils/storage.dart';
-import 'package:vwave_new/widgets/search_field.dart';
-import 'package:vwave_new/widgets/styles/text_styles.dart';
-import 'package:vwave_new/widgets/user_avatar.dart';
+import 'package:vwave/utils/storage.dart';
+import 'package:vwave/widgets/search_field.dart';
+import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave/widgets/user_avatar.dart';
 
 import '../../../common/providers/firebase.dart';
 import '../../../constants.dart';

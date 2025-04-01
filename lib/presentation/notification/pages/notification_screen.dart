@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave_new/presentation/club/models/club.dart';
-import 'package:vwave_new/presentation/livestream/models/livestream.dart';
-import 'package:vwave_new/utils/general.dart';
-import 'package:vwave_new/widgets/action_button.dart';
-import 'package:vwave_new/widgets/empty_screen.dart';
-import 'package:vwave_new/widgets/styles/text_styles.dart';
+import 'package:vwave/presentation/club/models/club.dart';
+import 'package:vwave/presentation/livestream/models/livestream.dart';
+import 'package:vwave/utils/general.dart';
+import 'package:vwave/widgets/action_button.dart';
+import 'package:vwave/widgets/empty_screen.dart';
+import 'package:vwave/widgets/styles/text_styles.dart';
 
 import '../../../constants.dart';
 import '../../../widgets/nav_back_button.dart';

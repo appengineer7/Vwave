@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_cropper/image_cropper.dart';
-import 'package:vwave_new/common/providers/firebase.dart';
+import 'package:vwave/common/providers/firebase.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../widgets/styles/app_colors.dart';

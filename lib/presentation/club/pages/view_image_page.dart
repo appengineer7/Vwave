@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager_firebase/flutter_cache_manager_firebase.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:video_player/video_player.dart';
-import 'package:vwave_new/widgets/nav_back_button.dart';
+import 'package:vwave/widgets/nav_back_button.dart';
 
 import '../../../widgets/styles/app_colors.dart';
 

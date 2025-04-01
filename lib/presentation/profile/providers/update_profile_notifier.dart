@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave_new/presentation/profile/repositories/profile_repository.dart';
+import 'package:vwave/presentation/profile/repositories/profile_repository.dart';
 
 import '../../auth/models/user.dart';
 

@@ -18,18 +18,18 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
 import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
-import 'package:vwave_new/presentation/club/models/club.dart';
-import 'package:vwave_new/presentation/events/models/club_event.dart';
-import 'package:vwave_new/presentation/livestream/models/livestream.dart';
-import 'package:vwave_new/presentation/messaging/models/conversation.dart';
-import 'package:vwave_new/presentation/splash/pages/splash_page.dart';
-import 'package:vwave_new/router.dart';
-import 'package:vwave_new/size_config.dart';
-import 'package:vwave_new/utils/general.dart';
-import 'package:vwave_new/utils/storage.dart';
+import 'package:vwave/presentation/club/models/club.dart';
+import 'package:vwave/presentation/events/models/club_event.dart';
+import 'package:vwave/presentation/livestream/models/livestream.dart';
+import 'package:vwave/presentation/messaging/models/conversation.dart';
+import 'package:vwave/presentation/splash/pages/splash_page.dart';
+import 'package:vwave/router.dart';
+import 'package:vwave/size_config.dart';
+import 'package:vwave/utils/general.dart';
+import 'package:vwave/utils/storage.dart';
 import 'constants.dart';
 import 'firebase_options.dart';
-import 'package:vwave_new/widgets/styles/app_colors.dart';
+import 'package:vwave/widgets/styles/app_colors.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 int id = 0;
@@ -140,9 +140,8 @@ void main() async {
     WidgetsFlutterBinding.ensureInitialized();
     // await Hive.initFlutter();
     // await Hive.openBox<List<Map<dynamic, dynamic>>>(HIVE_BOX_NAME);
-    await Firebase.initializeApp(
-        // options: DefaultFirebaseOptions.currentPlatform,
-        );
+     await Firebase.initializeApp(); // ✅ Initialize Firebase
+
 
     await FirebaseAppCheck.instance.activate(
       androidProvider: AndroidProvider.playIntegrity,

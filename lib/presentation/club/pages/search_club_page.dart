@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:vwave_new/presentation/club/providers/club_notifier_provider.dart';
+import 'package:vwave/presentation/club/providers/club_notifier_provider.dart';
 
 import '../../../widgets/nav_back_button.dart';
 import '../../../widgets/search_field.dart';

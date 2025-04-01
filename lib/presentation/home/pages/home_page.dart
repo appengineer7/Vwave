@@ -7,8 +7,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave_new/presentation/club/providers/club_notifier_provider.dart';
-import 'package:vwave_new/presentation/events/providers/club_event_notifier_provider.dart';
+import 'package:vwave/presentation/club/providers/club_notifier_provider.dart';
+import 'package:vwave/presentation/events/providers/club_event_notifier_provider.dart';
 import 'package:geolocator/geolocator.dart' as geo;
 import 'package:location/location.dart';
 

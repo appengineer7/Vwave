@@ -2,8 +2,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave_new/presentation/livestream/models/livestream.dart';
-import 'package:vwave_new/widgets/action_button.dart';
+import 'package:vwave/presentation/livestream/models/livestream.dart';
+import 'package:vwave/widgets/action_button.dart';
 
 import '../../../utils/general.dart';
 import '../../../widgets/styles/app_colors.dart';

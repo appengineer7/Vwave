@@ -4,7 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave_new/presentation/stories/providers/story_state.dart';
+import 'package:vwave/presentation/stories/providers/story_state.dart';
 import '../../../common/providers/firebase.dart';
 import '../../../utils/exceptions.dart';
 import '../../../utils/general.dart';

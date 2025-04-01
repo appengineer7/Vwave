@@ -18,7 +18,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:video_player/video_player.dart';
-import 'package:vwave_new/utils/general.dart';
+import 'package:vwave/utils/general.dart';
 
 import '../../../../widgets/nav_back_button.dart';
 import '../../../../widgets/styles/app_colors.dart';

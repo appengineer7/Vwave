@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave_new/presentation/club/providers/club_notifier_provider.dart';
+import 'package:vwave/presentation/club/providers/club_notifier_provider.dart';
 
 import '../../../../constants.dart';
 import '../../../../utils/general.dart';

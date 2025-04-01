@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:vwave_new/presentation/events/providers/club_event_notifier_provider.dart';
+import 'package:vwave/presentation/events/providers/club_event_notifier_provider.dart';
 import '../../../../utils/general.dart';
 import '../../../../utils/storage.dart';
 import '../../../../widgets/search_field.dart';

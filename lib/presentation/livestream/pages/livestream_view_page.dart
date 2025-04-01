@@ -18,10 +18,10 @@ import 'package:image_picker/image_picker.dart';
 import 'package:keep_screen_on/keep_screen_on.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:vwave_new/presentation/livestream/models/comment.dart';
-import 'package:vwave_new/utils/general.dart';
-import 'package:vwave_new/widgets/nav_back_button.dart';
-import 'package:vwave_new/widgets/user_avatar.dart';
+import 'package:vwave/presentation/livestream/models/comment.dart';
+import 'package:vwave/utils/general.dart';
+import 'package:vwave/widgets/nav_back_button.dart';
+import 'package:vwave/widgets/user_avatar.dart';
 
 import '../../../utils/exceptions.dart';
 import '../../../utils/storage.dart';

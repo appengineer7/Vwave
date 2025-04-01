@@ -8,12 +8,12 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get/utils.dart';
 import 'package:intl_phone_field2/countries.dart';
-import 'package:vwave_new/common/providers/firebase.dart';
-import 'package:vwave_new/presentation/messaging/models/conversation.dart';
-import 'package:vwave_new/presentation/messaging/providers/messages_provider.dart';
-import 'package:vwave_new/presentation/messaging/widgets/chat_meesage_popup.dart';
-import 'package:vwave_new/widgets/styles/text_styles.dart';
-import 'package:vwave_new/widgets/user_avatar.dart';
+import 'package:vwave/common/providers/firebase.dart';
+import 'package:vwave/presentation/messaging/models/conversation.dart';
+import 'package:vwave/presentation/messaging/providers/messages_provider.dart';
+import 'package:vwave/presentation/messaging/widgets/chat_meesage_popup.dart';
+import 'package:vwave/widgets/styles/text_styles.dart';
+import 'package:vwave/widgets/user_avatar.dart';
 
 import '../../../utils/general.dart';
 import '../../../utils/storage.dart';

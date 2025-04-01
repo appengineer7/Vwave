@@ -3,7 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:video_player/video_player.dart';
-import 'package:vwave_new/presentation/stories/pages/view_story_page.dart';
+import 'package:vwave/presentation/stories/pages/view_story_page.dart';
 
 import '../models/story.dart';
 import '../providers/story_notifier_provider.dart';

@@ -16,9 +16,9 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
-import 'package:vwave_new/presentation/stories/providers/story_notifier_provider.dart';
-import 'package:vwave_new/utils/general.dart';
-import 'package:vwave_new/utils/storage.dart';
+import 'package:vwave/presentation/stories/providers/story_notifier_provider.dart';
+import 'package:vwave/utils/general.dart';
+import 'package:vwave/utils/storage.dart';
 
 import '../../../constants.dart';
 import '../../../widgets/bottom_sheet_multiple_responses.dart';

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:vwave_new/widgets/action_button.dart';
+import 'package:vwave/widgets/action_button.dart';
 
 import '../../../../utils/general.dart';
 import '../../../../widgets/nav_back_button.dart';

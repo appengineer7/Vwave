@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:geoflutterfire_plus/geoflutterfire_plus.dart';
-import 'package:vwave_new/utils/exceptions.dart';
+import 'package:vwave/utils/exceptions.dart';
 
 import '../../../utils/general.dart';
 import '../../../utils/storage.dart';

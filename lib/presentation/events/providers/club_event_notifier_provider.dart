@@ -1,7 +1,7 @@
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave_new/presentation/events/providers/club_event_state.dart';
-import 'package:vwave_new/utils/exceptions.dart';
+import 'package:vwave/presentation/events/providers/club_event_state.dart';
+import 'package:vwave/utils/exceptions.dart';
 
 import '../models/club_event.dart';
 import '../repositories/club_event_repository.dart';

@@ -3,13 +3,13 @@ import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:geoflutterfire_plus/geoflutterfire_plus.dart';
-import 'package:vwave_new/common/providers/firebase.dart';
-import 'package:vwave_new/presentation/club/models/club.dart';
-import 'package:vwave_new/presentation/livestream/models/livestream.dart';
-import 'package:vwave_new/services/hive_database.dart';
-import 'package:vwave_new/utils/exceptions.dart';
-import 'package:vwave_new/utils/general.dart';
-import 'package:vwave_new/utils/storage.dart';
+import 'package:vwave/common/providers/firebase.dart';
+import 'package:vwave/presentation/club/models/club.dart';
+import 'package:vwave/presentation/livestream/models/livestream.dart';
+import 'package:vwave/services/hive_database.dart';
+import 'package:vwave/utils/exceptions.dart';
+import 'package:vwave/utils/general.dart';
+import 'package:vwave/utils/storage.dart';
 
 abstract class BaseClubRepository {
   Future<List<Club>> getClubs();

@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:vwave_new/common/providers/firebase.dart';
-import 'package:vwave_new/presentation/auth/repositories/auth_repository.dart';
-import 'package:vwave_new/presentation/messaging/models/message.dart';
-import 'package:vwave_new/utils/exceptions.dart';
-import 'package:vwave_new/utils/storage.dart';
+import 'package:vwave/common/providers/firebase.dart';
+import 'package:vwave/presentation/auth/repositories/auth_repository.dart';
+import 'package:vwave/presentation/messaging/models/message.dart';
+import 'package:vwave/utils/exceptions.dart';
+import 'package:vwave/utils/storage.dart';
 
 import '../../../utils/general.dart';
 import '../models/conversation.dart';

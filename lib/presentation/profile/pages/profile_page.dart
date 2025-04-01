@@ -11,8 +11,8 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave_new/common/providers/firebase.dart';
-import 'package:vwave_new/presentation/profile/widgets/profile_list_style.dart';
+import 'package:vwave/common/providers/firebase.dart';
+import 'package:vwave/presentation/profile/widgets/profile_list_style.dart';
 
 import '../../../constants.dart';
 import '../../../services/dynamic_link.dart';

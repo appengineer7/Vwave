@@ -11,9 +11,9 @@ import 'package:flutter_svg/svg.dart';
 import 'package:maps_launcher/maps_launcher.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:vwave_new/presentation/club/models/club.dart';
-import 'package:vwave_new/presentation/events/models/club_event.dart';
-import 'package:vwave_new/utils/general.dart';
+import 'package:vwave/presentation/club/models/club.dart';
+import 'package:vwave/presentation/events/models/club_event.dart';
+import 'package:vwave/utils/general.dart';
 
 import '../../../constants.dart';
 import '../../../utils/storage.dart';
