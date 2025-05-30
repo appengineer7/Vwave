@@ -1,0 +1,2 @@
+C:/Users/tanya/StudioProjects/Vwave/android/app/.cxx/Debug/u5o6v124/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/tanya/StudioProjects/Vwave/android/app/.cxx/Debug/u5o6v124/x86_64/CMakeFiles/rebuild_cache.dir

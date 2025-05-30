@@ -1,0 +1,2 @@
+/Users/appdev/Downloads/Vwave/android/app/.cxx/Debug/g1g5hop4/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/appdev/Downloads/Vwave/android/app/.cxx/Debug/g1g5hop4/armeabi-v7a/CMakeFiles/rebuild_cache.dir

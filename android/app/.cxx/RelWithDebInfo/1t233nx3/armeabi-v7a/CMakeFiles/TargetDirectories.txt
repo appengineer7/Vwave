@@ -1,0 +1,2 @@
+/Users/appdev/Downloads/Vwave/android/app/.cxx/RelWithDebInfo/1t233nx3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/appdev/Downloads/Vwave/android/app/.cxx/RelWithDebInfo/1t233nx3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
